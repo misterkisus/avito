@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(242, 180, 180);
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.container {
+    width: 600px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: black;
+    margin: auto;
+    padding: 20px;
+
+    display: block;
+    box-sizing: border-box;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.anketa fieldset {
+    border: 2px solid black;
+    margin: 0 20px 20px 20px;
+    padding: 20px 15px;
+
+    border-radius: 10px;
+
+}
+
+.anketa label {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sendanswer {
+    border-radius: 7px;
+    border: none;
+    width: 190px;
+    height: 45px;
+    background-color: yellow;
+
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+
+    margin: auto;
+    
+
+    cursor: pointer;
+
+}
+
+.sendanswer:hover {
+    background-color:rgb(36, 231, 88)
+}
+
+.sendanswer:active {
+    margin-top: 25px;
+}

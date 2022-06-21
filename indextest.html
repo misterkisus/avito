@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styletest.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1>Анкета пользователя</h1>
+            <div class="anketa">
+                
+                <form action="answers.php">
+                    <fieldset>
+                        <legend>Ваше имя</legend>
+                        <label for="username">Имя</label>
+                        <input type="text" name="name" id="username" placeholder="Ваше имя">
+                        <br>
+                        <label for="usersurname">Фамилия</label>
+                        <input type="text" name="name" id="usersurname" placeholder="Ваша фамилия">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Ваш логин</legend>
+                        <label for="login">Логин</label>
+                        <input type="text" name="login" id="login" placeholder="Логин">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Дата рождения</legend>
+                        <label for="dateofbirth">Дата рождения</label>
+                        <input type="date" name="dateofbirth" id="dateofbirth">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Пароль</legend>
+                        <label for="password">Ваш пароль</label>
+                        <input type="password" name="pasword" id="password">
+                    </fieldset>
+                    
+                    <button class="sendanswer">Отправить</button>
+                </form>
+            </div>
+        </div>
+        
+    </section>
+</body>
+</html>
